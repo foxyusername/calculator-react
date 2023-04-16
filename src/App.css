@@ -1,81 +1,51 @@
 body{
-    display:flex;
-    position: relative;
+    background-image: url(assets/sky.jpg);
+    background-color: red;
+    background-size: cover;
+    display: flex;
     justify-content: center;
-    background-color: black;
+    align-items: baseline;
 }
-#main{
-   justify-content: center;
-   text-align: center;
-   background-color: white;
-   border: 3px solid red;
-   width:400px;
-border-radius: 20px;
-transition: all 0.3s;
-}
-#button{
-    position: relative;
-    left:5px;
-}
-
-#main:hover{
-border: 3px solid blue;
-}
-#list{
-    display: flex;
-}
-#button2{
-    position: relative;
-transform: scale(0.6);
-border: 1px solid black;
-transform: scale(0.5);
-height: 50px;
-top:7px;
-}
-#input_place{
+#input_field{
     position:absolute;
-    top:10px;
-    left: 20px;
-   
-}
-#button3{
-    position: relative;
-    border: 1px solid black;
-    transform: scale(0.6);
-    left: -25px;
-}
-#X-btn{
-    position:relative;
-    height: 40px;
-  transform: scale(0.5);
-  top: 20px;
-  border: 1px solid black;
-}
-#elements{
-    display: flex;
-    position: absolute;
-    background-color: white;
-    color: black;
+    top:40px;
+left:570px;
+    margin-top:20px;
+    transform: scale(1.5);
     border-radius: 10px;
-    left:-6px;
-    margin-top: 7px;
-    border: 2px solid red;
-    transition: all 0.2;
 }
-#elements:hover{
-    border: 2px solid blue;
+#submit_btn{
+    position: absolute;
+    margin-left: 15px;
+    color: red;
+    background-image: url(assets/search.png);
+    background-size:cover;
+    background-position: center;
+    border: none;
+    height:30px;
+ border-radius: 50px;
+ transition: 0.1s ;
 }
-#color-btn{
+#result_div{
     position: relative;
-transform: scale(0.7);
-left:-20px;
-height: 40px;
-top:20px;
-border: 1px solid black;
+    border: 2px solid rgb(30, 27, 218);
+transform: scale(1.4);
+border-radius: 20px;
+text-shadow: 1px 1px 5px black;
+    cursor: default;
+    top:100px;
+align-items: center;
+text-align: center;
+box-shadow: 3px 3px 10px rgb(80, 43, 247);
+transition: 0.1s;
 }
-#first{
+#input{
     position: relative;
-  display: flex;
-left:30px;
+left:10px;
 }
-
+#submit_btn:hover{
+    transform: scale(0.9);
+}
+#result_div:hover{
+   box-shadow: inset 2px 2px 5px white;
+}
