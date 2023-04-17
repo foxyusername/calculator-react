@@ -2,7 +2,7 @@ body{
     background-image: url(assets/sky.jpg);
     background-color: red;
     background-size: cover;
-    display: flex;
+    display:flex;
     justify-content: center;
     align-items: baseline;
 }
@@ -49,3 +49,4 @@ left:10px;
 #result_div:hover{
    box-shadow: inset 2px 2px 5px white;
 }
+
